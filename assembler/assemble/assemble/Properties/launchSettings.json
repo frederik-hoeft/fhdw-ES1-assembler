@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "assemble": {
+      "commandName": "Project",
+      "commandLineArgs": "test.asm"
+    }
+  }
+}

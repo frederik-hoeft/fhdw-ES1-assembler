@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ES1Assembler</RootNamespace>
+	  <EnablePreviewFeatures>true</EnablePreviewFeatures>
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Instructions\MOVXO.cs~RF5c478e7e.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="test.asm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
